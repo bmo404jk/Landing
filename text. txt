@@ -1,22 +1,12 @@
 {
   "import": {
     "excel": {
-      "mapping": {
-        "name": "Номер",
-        "description": "Пошаговое описание",
-        "expected_result": "Ожидаемый результат",
-        "comment": "Комментарий"
-      },
-      "steps": {
-        "step_action": "Пошаговое описание",
-        "step_result": "Ожидаемый результат"
-      },
-      "attributes": [
-        {
-          "key": "Комментарий",
-          "type": "text"
-        }
-      ]
+      "columns": {
+        "Номер": "name",
+        "Пошаговое описание": "description",
+        "Ожидаемый результат": "expected_result",
+        "Комментарий": "comment"
+      }
     }
   }
 }
